@@ -36,4 +36,4 @@ async def on_message(message): #on_message = if bot receives message
         channel = bot.get_channel(channel_id)
         await channel.send('This is a message sent by the bot!')
 
-client.run("MTEwMDE3Njc5Mzk2NjczOTUwNg.Gcf5QN.KCknVHUDQEvilPN-bDdjS9VTm5l8Hi9fcM3O0A")
+client.run(token)
